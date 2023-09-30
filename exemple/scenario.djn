@@ -1,0 +1,15 @@
+-- "Informations sur le jeu".
+Le titre du jeu est "Exemple de jeu avec DonjonFI".
+L’auteur du jeu est "Anonyme".
+L’identifiant du jeu est "d0f1bfe0-f0d7-4ee9-9f17-2a2ae2f5f2d3".
+
+-- positionner le joueur dans le jeu
+Le joueur se trouve dans le salon.
+
+Le salon est un lieu.
+Sa description est "Vous êtes dans un salon.".
+
+Le magazine est un objet dans le salon.
+Son aperçu est "[initialement]Un magazine traîne sur le sol.[fin choix]".
+Sa description est "Il s'agit des programmes TV de la semaine dernière.".
+Le texte du magazine est "Ils repassent un film de Noël ce soir.".

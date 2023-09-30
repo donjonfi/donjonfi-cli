@@ -1,0 +1,26 @@
+{
+  "name": "@donjonfi/donjonfi-cli",
+  "version": "0.1.0",
+  "description": "Client pour analyser votre scénario de fiction interactive DonjonFI.",
+  "main": "dist/index.js",
+  "bin":{
+    "djn": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "npx tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["Donjon FI", "Donjon", "donjonfi", "djn", "fiction interactive"],
+  "author": "Jonathan Claes",
+  "license": "MIT",
+  "repository": "https://github.com/donjonfi/donjonfi-cli",
+  "homepage": "https://donjon.fi",
+  "dependencies": {
+    "commander": "^11.0.0",
+    "figlet": "^1.6.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.7.2",
+    "typescript": "^5.2.2"
+  }
+}

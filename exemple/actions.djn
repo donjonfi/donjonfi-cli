@@ -1,0 +1,18 @@
+désactiver les actions de base.
+
+action sauter:
+  phase épilogue:
+    dire "Vous sautez sur place.".
+fin action
+
+action lire ceci:
+  définitions:
+    ceci est un objet visible prioritairement lisible.
+  phase prérequis:
+    si ceci est le joueur, refuser "Vous lisez en vous. Hein ?".
+    si aucun texte pour ceci, refuser "Je ne vois rien à lire.".
+  phase exécution:
+    changer ceci est lu.  
+  phase épilogue:
+    dire "[texte ceci]".
+fin action
